@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "roboto";
+    src: url("fonts/roboto/");
+}
+
+@font-face {
+    font-family: "roboto_light";
+    src: url("fonts/roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "roboto_condesed";
+    src: url("fonts/roboto_condesed/RobotoCondensed-Light.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.promo {
+    height: 800px;
+    background: url(/Practice/img/bg/main_bg.jpg) center center/cover no-repeat;
+}
+
+.container {
+    width: 1140;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 80px;
+    font-family: roboto;
+    font-weight: bolder;
+    margin: auto;
+}
+
+h2 {
+    color: #F9BF3B;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 41px;
+    font-family: roboto;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+span {
+    color: #F9BF3B;
+    font-family: roboto;
+    font-weight: 600;
+}
+
+#tagline {
+    margin-top: 5px;
+}
+
+
+.bgMain {
+    position: absolute;
+    z-index: -1;
+    /* display: inline-block; */
+    margin-bottom: 150px;
+}
+
+.upperName {
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: roboto;
+    font-weight: 500;
+    margin-top: 9.5px;
+    margin-bottom: 53px;
+}
+
+.lowerText {
+    font-family: roboto_light;
+    font-weight: 100;
+    position: relative;
+    text-align: left;
+    color: rgba(255,255,255, 0.8);
+    font-size: 21px;
+    left: 170px;
+    margin-top: 22.5px;
+    margin-bottom: 72px;
+}
+
+.upperLogo {
+    display: inline-block;
+    margin-top: 38px;
+    margin-left: 720px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    height: 72px;
+    width: 313px;
+    left: 805px;
+    top: 551px;
+    border: 0px;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    font-family: roboto_condesed;
+    font-weight: lighter;
+    text-transform: uppercase;
+    margin-top: 72px;
+}
+
+.bottomText {
+    color: rgba(255,255,255, 0.4);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: roboto_light;
+    font-weight: lighter;
+    margin-top: 70.5px;
+    margin-bottom: 4.5px;
+}
+
+.downTheSite {
+    display: block;
+    margin: 0 auto;
+}
