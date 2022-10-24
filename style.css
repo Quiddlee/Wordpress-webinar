@@ -21,7 +21,7 @@
 
 .promo {
     height: 800px;
-    background: url(/Practice/img/bg/main_bg.jpg) center center/cover no-repeat;
+    background: url(/HTML_CSS/Practice/img/bg/main_bg.jpg) center center/cover no-repeat;
 }
 
 .container {
@@ -57,14 +57,6 @@ span {
 
 #tagline {
     margin-top: 5px;
-}
-
-
-.bgMain {
-    position: absolute;
-    z-index: -1;
-    /* display: inline-block; */
-    margin-bottom: 150px;
 }
 
 .upperName {
