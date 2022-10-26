@@ -315,3 +315,18 @@ h2.title {
     color: #4A4A4A;
     margin-top: 24.5px;
 }
+
+footer {
+    min-height: 169px;
+    padding: 57px 0 69px 0;
+    background-color: #1A1A1A;
+}
+
+footer .footer_text {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #888888;
+}
