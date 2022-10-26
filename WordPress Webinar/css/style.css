@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     position: relative;
     width: 1140px;
@@ -12,7 +16,7 @@
 
 .promo {
     min-height: 800px;
-    background: url('img/bg/main_bg.jpg') center center/cover no-repeat;
+    background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
     padding: 39px 0 62px 0;
 }
 
@@ -22,7 +26,6 @@
 }
 
 .logo .logo_text {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
@@ -37,7 +40,6 @@ h1 {
 }
 
 .title {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 41px;
     line-height: 41px;
@@ -47,34 +49,31 @@ h1 {
 }
 
 h2.title {
-    margin-top: 20px;
+    margin-top: 20.5px;
 }
 
 .simple .title_big {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 80px;
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20.5px;
 }
 
 .promo .promo_text {
     padding: 0 13px;
     margin-top: 23px ;
-    font-family: 'Roboto Light';
     font-weight: 300;
-    font-size: 21px; 
+    font-size: 22.5px; 
     line-height: 28px;
-    color: #FFFFFF;
-    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    /* text-align: center; */
 }
 
 .promo .promo_text span {
     color: rgba(249, 191, 59, 1);
-    font-family: 'Roboto - Bold';
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .promo .promo_btn, .gift .gift_btn {
@@ -83,10 +82,12 @@ h2.title {
     margin-top: 73px;
     width: 313px;
     height: 72px;
-    box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.18);
-    border: 4px solid rgba(0, 0, 0, 0.23);
+    border: none;
+    /* box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.18); */
+    /* border: 4px solid rgba(0, 0, 0, 0.23); */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     background-image: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
-    font-family: 'RobotoCondensed';
+    font-weight: 300;
     font-size: 21px;
     line-height: 24px;
     text-transform: uppercase;
@@ -99,15 +100,14 @@ h2.title {
 }
 
 .more {
-    margin-top: 73px;
+    margin-top: 70.5px;
 }
 
 .more .more_text {
-    font-family: 'Roboto - Thin';
     font-weight: 100;
     font-size: 15px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.5);
     text-align: center;
 }
 
@@ -124,7 +124,6 @@ h2.title {
 }
 
 .waiting .waiting_header, .finish .finish_header {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 30px;
     text-align: center;
@@ -145,7 +144,6 @@ h2.title {
 }
 
 .waiting .waiting_subheader {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 23px;
     line-height: 20px;
@@ -166,13 +164,12 @@ h2.title {
     text-align: center;
 }
 
-.waiting .waiting_wrapper .waiting_item .waiting_img {
+/* .waiting .waiting_wrapper .waiting_item .waiting_img {
     width: 100%;
-}
+} */
 
 .waiting .waiting_wrapper .waiting_item .waiting_descr {
     margin-top: 33px;
-    font-family: 'Roboto';
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
@@ -186,25 +183,23 @@ h2.title {
 
 .optimization .optimization_header {
     margin-left: 391px;    
-    font-family: 'Roboto - Black';
-    font-weight: 400;
+    font-weight: 600;
     font-size: 29px;
     text-transform: uppercase;
     color: #299CBD;
 }
 
+
 .optimization .otimization_text {
-    margin-top: 25px;
+    margin-top: 1px;
     margin-left: 391px;
-    font-family: 'Roboto Light';
     font-weight: 300;
     font-size: 17px;
-    line-height: 27px;
+    line-height: 25px;
     color: #4A4A4A;
 }
 
 .optimization .otimization_text span {
-    font-family: "Roboto - Bold ";
     font-weight: 700;
 }
 
@@ -218,7 +213,7 @@ h2.title {
 .finish {
     min-height: 447px;
     padding: 86px 0 79px 0;
-    background: url("img/bg/second_bg.png") center center/cover no-repeat; 
+    background: url('../img/bg/second_bg.png') center center/cover no-repeat; 
 }
 
 .finish .finish_wraper {
@@ -245,7 +240,6 @@ h2.title {
 .finish .finish_wraper .finish_item .finish_descr {
     margin-top: 25px;
     text-align: center;
-    font-family: 'Roboto';
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
@@ -264,7 +258,6 @@ h2.title {
 }
 
 .gift .gift_text {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 30px;
     line-height: 43px;
@@ -289,7 +282,6 @@ h2.title {
 }
 
 .firstweb .firstweb_text .firstweb_will {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
@@ -298,7 +290,6 @@ h2.title {
 }
 
 .firstweb .firstweb_text .firstweb_date {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 36px;
     line-height: 36px;
@@ -308,7 +299,6 @@ h2.title {
 }
 
 .firstweb .firstweb_text .firstweb_limited {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 23px;
     line-height: 20px;
@@ -324,7 +314,6 @@ footer {
 
 footer .footer_text {
     text-align: center;
-    font-family: 'Roboto';
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
