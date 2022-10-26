@@ -273,3 +273,45 @@ h2.title {
     margin-top: 45px;
 }
 
+.firstweb {
+    min-height: 512px;
+    padding: 81px 0 50.5px 0;
+}
+
+.firstweb .firstweb_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.firstweb .firstweb_text {
+    text-align: center;
+    margin-top: 36px;
+}
+
+.firstweb .firstweb_text .firstweb_will {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.firstweb .firstweb_text .firstweb_date {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #299CBD;
+    margin-top: 30px;
+}
+
+.firstweb .firstweb_text .firstweb_limited {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    color: #4A4A4A;
+    margin-top: 24.5px;
+}
